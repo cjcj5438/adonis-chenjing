@@ -1,0 +1,26 @@
+@layout("layouts.main")
+
+@section('header')
+@super
+<h1>{{pageTitle|| "不存在没有值..."}}</h1>
+<h1>如果不想edge 不动大括号里面的 可以加一个@: @{{pageTitle|| "不存在没有值..."}}</h1>
+<h1>用三层大括号就能渲染标签了 {{{pageTitle|| "不存在没有值..."}}}</h1>
+<hr>
+@endsection
+
+@section('content')
+模板语法 if
+@if(user.name)
+{{user.name}}
+@else
+login / signup
+@endif
+
+@!component('components.list',{entities,border:true,borderColor:'red'})
+@component('components.list',{entities,border:true,borderColor:'red'})
+    @slot('notes')
+        <small>ni hi ni nsi nsi nsi n </small>
+    @endslot
+@endcomponent
+
+@endsection

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+{{style('css/main')}}
+  {{ script('js/main') }}
+  <title>{{ pageTitle|| '模板'}}</title>
+</head>
+<body>
+<div class="container">
+
+    <div>
+        <small>URL: </small>{{ request.url() }}<br>
+        <small>OriginalUrl: </small>{{ request.originalUrl() }}<br>
+        <small>Method: </small>{{ request.method() }}<br>
+        <small>Protocol: </small>{{ request.protocol() }}<br>
+      </div>
+
+  <div class="header">
+    @section('header')
+      <small>__headerSection__</small>
+    @endsection
+  </div>
+  <div class="content">
+    @section('content')
+      <p>there is no content yet.endsection单词都是要小写之母</p>
+    @endsection
+  </div>
+  @include('partials.foot')
+</div>
+</body>
+</html>

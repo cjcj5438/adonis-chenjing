@@ -1,0 +1,24 @@
+模板语法 each
+
+@each(entity in entities)
+<div
+  style="
+      padding: 4px;
+      @if(!$loop.last && border)
+      border-bottom: 1px solid {{ borderColor || '#eee' }}
+      @endif
+    "
+>
+  <small>{{$loop.index+1}}</small>
+  first: <i>{{$loop.first}}</i>
+  last: <i>{{$loop.last}}</i>
+  total: <i>{{$loop.total}}</i>
+  isOdd: <i>{{$loop.isOdd}}</i>
+  isEven: <i>{{$loop.isEven}}</i>
+  {{entity.title}}: {{entity.content}}
+</div>
+@endeach
+
+@@yield($slot.notessma)
+  <small>put some notes here</small> 
+@endyield
