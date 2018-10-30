@@ -28,3 +28,7 @@ Route.get('/hello','HelloController.render')
 Route.get('/posts',async ()=>{
   return await Database.table('posts').select('*')
 })
+
+
+// 定义一条资源类型的控制器
+Route.resource('posts','PostController')
