@@ -290,7 +290,7 @@
       <workItem from="1540732917311" duration="5342000" />
       <workItem from="1540744791180" duration="473000" />
       <workItem from="1540827161704" duration="3232000" />
-      <workItem from="1540909119137" duration="1865000" />
+      <workItem from="1540909119137" duration="2043000" />
     </task>
     <task id="LOCAL-00001" summary="updata base">
       <created>1540693492188</created>
@@ -334,11 +334,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540917627959</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add db">
+      <created>1540917656155</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540917656155</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32454000" />
+    <option name="totallyTimeSpent" value="32632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="22" width="1301" height="874" extended-state="0" />
