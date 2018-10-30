@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff256dea-a0d4-4bd7-ba50-4fdd15728a02" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/db.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/main.edge" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/start/routes.js" afterPath="$PROJECT_DIR$/start/routes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -294,7 +290,7 @@
       <workItem from="1540732917311" duration="5342000" />
       <workItem from="1540744791180" duration="473000" />
       <workItem from="1540827161704" duration="3232000" />
-      <workItem from="1540909119137" duration="1827000" />
+      <workItem from="1540909119137" duration="1865000" />
     </task>
     <task id="LOCAL-00001" summary="updata base">
       <created>1540693492188</created>
@@ -331,17 +327,23 @@
       <option name="project" value="LOCAL" />
       <updated>1540830940873</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add db">
+      <created>1540917627959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540917627959</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32416000" />
+    <option name="totallyTimeSpent" value="32454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="22" width="1301" height="874" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
