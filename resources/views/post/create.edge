@@ -1,0 +1,22 @@
+@layout('layouts.main')
+
+@section('content')
+  <div class="container">
+    <h3 class="mt-5 mb-4">add new post</h3>
+    <form action="/posts" method="POST">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" placehoder="enter title here" name="title">
+      </div>
+      <div class="form-group">
+        <label for="content">Content</label>
+        <textarea name="content" id="" cols="30" rows="10" class="form-control"
+                  placeholder="write something amazing"></textarea>
+
+      </div>
+      <!--adonis 框架会对post请求做保护. 解决方法-->
+      {{ csrfField() }}
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+  </div>
+@endsection
