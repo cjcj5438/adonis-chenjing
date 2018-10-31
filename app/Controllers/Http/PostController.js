@@ -7,6 +7,8 @@
 /**
  * Resourceful controller for interacting with posts
  */
+const Database = use('Database')
+
 class PostController {
   /**
    * Show a list of all posts.
@@ -17,7 +19,7 @@ class PostController {
    * @param {Response} ctx.response
    * @param {View} ctx.view
    */
-  async index ({ request, response, view }) {
+  async index({request, response, view}) {
   }
 
   /**
@@ -29,7 +31,8 @@ class PostController {
    * @param {Response} ctx.response
    * @param {View} ctx.view
    */
-  async create ({ request, response, view }) {
+  async create({request, response, view}) {
+    return view.render('post.create')
   }
 
   /**
@@ -40,7 +43,11 @@ class PostController {
    * @param {Request} ctx.request
    * @param {Response} ctx.response
    */
-  async store ({ request, response }) {
+  async store({request, response}) {
+    const newPost = request.only(['title', 'content'])
+    // insert 要插入的具体的数据, into 插入的数据表示
+    const postID = await Database.insert(newPost).into('posts')
+    console.log("postID:", postID);
   }
 
   /**
@@ -52,7 +59,7 @@ class PostController {
    * @param {Response} ctx.response
    * @param {View} ctx.view
    */
-  async show ({ params, request, response, view }) {
+  async show({params, request, response, view}) {
   }
 
   /**
@@ -64,7 +71,7 @@ class PostController {
    * @param {Response} ctx.response
    * @param {View} ctx.view
    */
-  async edit ({ params, request, response, view }) {
+  async edit({params, request, response, view}) {
   }
 
   /**
@@ -75,7 +82,7 @@ class PostController {
    * @param {Request} ctx.request
    * @param {Response} ctx.response
    */
-  async update ({ params, request, response }) {
+  async update({params, request, response}) {
   }
 
   /**
@@ -86,7 +93,7 @@ class PostController {
    * @param {Request} ctx.request
    * @param {Response} ctx.response
    */
-  async destroy ({ params, request, response }) {
+  async destroy({params, request, response}) {
   }
 }
 
