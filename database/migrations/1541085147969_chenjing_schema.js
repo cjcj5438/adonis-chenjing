@@ -3,17 +3,18 @@
 /** @type {import('@adonisjs/lucid/src/Schema')} */
 const Schema = use('Schema')
 
-class PostSchema extends Schema {
+class ChenjingSchema extends Schema {
   up () {
-    this.create('posts', (table) => {
+    this.create('chenjings', (table) => {
       table.increments()
+      table.string("title")
       table.timestamps()
     })
   }
 
   down () {
-    this.drop('posts')
+    this.drop('chenjings')
   }
 }
 
-module.exports = PostSchema
+module.exports = ChenjingSchema

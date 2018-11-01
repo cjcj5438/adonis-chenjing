@@ -28,3 +28,5 @@ describe users;显示名字为 users 的表
 adonis make:migration post  在migration下面创建一个post 表, 用于保存项目文档用  然后选择创建表 
 
 adonis 是支持knex: 数据查询的  https://www.songxingguo.com/2018/06/30/knex.js-query/
+
+mysql.server start   i
