@@ -14,10 +14,19 @@
 */
 
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
-const Database=use('Database')
+const Database = use('Database')
 const Route = use('Route')
 
 Route.on('/').render('welcome')
 
 // 定义一条资源类型的控制器
-Route.resource('posts','PostController')
+Route.resource('posts', 'PostController')
+
+
+Route.get("/getsession", ({session, response}) => {
+  session.put("username", "chenjing")
+  response.redirect("/postsession")
+})
+Route.get('/postsession', ({session}) => {
+  return session.get("username")
+})
