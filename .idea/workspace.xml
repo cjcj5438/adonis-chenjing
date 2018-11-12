@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff256dea-a0d4-4bd7-ba50-4fdd15728a02" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/model.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/Http/PostController.js" afterPath="$PROJECT_DIR$/app/Controllers/Http/PostController.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -375,7 +373,7 @@
       <workItem from="1541082604096" duration="7102000" />
       <workItem from="1541171430825" duration="68000" />
       <workItem from="1541239125129" duration="627000" />
-      <workItem from="1542031020900" duration="4335000" />
+      <workItem from="1542031020900" duration="4393000" />
     </task>
     <task id="LOCAL-00001" summary="updata base">
       <created>1540693492188</created>
@@ -468,11 +466,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542031259304</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add model">
+      <created>1542035568528</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1542035568528</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52061000" />
+    <option name="totallyTimeSpent" value="52119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="26" width="1301" height="835" extended-state="0" />
@@ -557,7 +562,8 @@
     <MESSAGE value="add request-response 基本data接收的方式" />
     <MESSAGE value="add request-response 用法" />
     <MESSAGE value="add db" />
-    <option name="LAST_COMMIT_MESSAGE" value="add db" />
+    <MESSAGE value="add model" />
+    <option name="LAST_COMMIT_MESSAGE" value="add model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
